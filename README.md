@@ -21,7 +21,11 @@ The primary goal of this project was to develop an intelligent UAV system capabl
 - **Optimized Performance:** Balances accuracy and efficiency for edge device deployment.
 - **Full-Stack Development:** Includes web interfaces and APIs for system monitoring.
 
----
+
+## Note : 
+### Prerequisites
+- The `yolov8m.pt` model file will be downloaded automatically by the `ultralytics` library on first run. Ensure an internet connection is available.
+- Alternatively, download it manually from [Ultralytics Releases](https://github.com/ultralytics/assets/releases) and place it in the `src/detection/` folder.
 
 ## Steps to run your YOLOv8 object detection script locally from GitHub:
 
